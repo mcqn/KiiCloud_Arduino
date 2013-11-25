@@ -2,6 +2,8 @@
 
 Sample code to interface to the KiiCloud [http://kii.com] from Arduino.  For more documentation on the API, see [http://documentation.kii.com/en/guides/rest/].
 
+Requires the HttpClient from [https://github.com/amcewen/HttpClient].
+
 ## Setup
 
 1. Create a KiiCloud account
