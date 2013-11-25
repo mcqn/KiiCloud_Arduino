@@ -12,7 +12,7 @@ Requires the HttpClient from https://github.com/amcewen/HttpClient
 1. The "Access Keys" option (in the top right-hand corner) will have the important information that you'll need for the examples
 1. Create an app user for your device so it can interact with the Kii Cloud:
 
-    curl -X POST -H "Content-Type: application/vnd.kii.RegistrationRequest+json" -H "x-kii-appid:<YOUR APP ID>" -H "x-kii-appkey:<YOUR APP KEY>" "https://api.kii.com/api/apps/<YOUR APP ID>/users" -d '{"loginName":"<DEVICE USER NAME>", "displayName":"<DEVICE DISPLAY NAME>", "country":"US", "password":"<DEVICE PASSWORD>"}'
+        curl -X POST -H "Content-Type: application/vnd.kii.RegistrationRequest+json" -H "x-kii-appid:<YOUR APP ID>" -H "x-kii-appkey:<YOUR APP KEY>" "https://api.kii.com/api/apps/<YOUR APP ID>/users" -d '{"loginName":"<DEVICE USER NAME>", "displayName":"<DEVICE DISPLAY NAME>", "country":"US", "password":"<DEVICE PASSWORD>"}'
 
 ## Examples
 
